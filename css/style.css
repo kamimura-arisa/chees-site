@@ -1,1 +1,309 @@
 /* ここから下に記載していく */
+ul.taitorutati{
+    display: flex;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+ul.taitorutati li{
+margin-left: 40px;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.taitoru{
+    height: 400px;
+    background: url("../img/mainbg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ue{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.shita{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.about{
+    text-align: center;
+    margin: 50px;
+}
+.taitoruabout{
+    font-size: 30px;
+    font-weight: bold;
+    color: yellow;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.sabutaiabout{
+    margin-bottom: 20px;
+    font-size: 16px;
+    text-align: center;
+}
+.atext1{
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+.imgBOX{
+    display: flex;
+    margin-bottom: 50px;
+}
+.imgBOX p {
+width: 25%;
+}
+.imgBOX p img{
+    width: 100%;
+}
+.course{
+    margin-bottom: 20px;
+}
+.taitorucourse{
+    margin-bottom: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.coursetext{
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 20px;
+    line-height: 1.8;
+}
+.yoko{
+    display: flex;
+    background-color: lightgray;
+}
+.yoko img{
+    width: 50%;
+}
+.honkaku{
+    font-weight: bold;
+    font-size: large;
+    padding-top: 50px;
+    margin-bottom: 20px;
+}
+.honkaku2{
+    text-align: left;
+}
+.yoko2{
+    display: flex;
+    background-color:lightgray;
+}
+.yoko2 img{
+    width: 50%;
+    float: right;
+}
+.hituyo{
+    font-weight: bold;
+    font-size: large;
+    padding-top: 50px;
+    margin-bottom: 20px;
+}
+.hituyo2{
+    text-align: left;
+}
+.yoko3{
+    display: flex;
+    background-color:lightgray;
+}
+.yoko3 img{
+    width: 50%;
+}
+.sotu{
+    font-weight: bold;
+    font-size: large;
+    padding-top: 50px;
+    margin-bottom: 20px;
+}
+.sotu2{
+    text-align: left;
+}
+
+.news2{
+    color: yellow;
+    font-size: 20px;
+    padding-top: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.newskana{
+    font-size: 15px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.onaji{
+    display:flex;
+    margin-bottom: 50px;
+    justify-content: space-between;
+    width: 960px;
+    margin: 0 auto;
+}
+.piza{
+    font-size: 13px;
+    padding: 10px;
+}
+.hover1:hover{
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    border-bottom-color: transparent;
+  transform: translateY(0.1875em);
+}
+.hover2:hover{
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    border-bottom-color: transparent;
+  transform: translateY(0.1875em);
+}
+.hover3:hover{
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    border-bottom-color: transparent;
+  transform: translateY(0.1875em);
+}
+.boxmore{
+    background-color: yellow;
+  color: white;
+  display: inline-block;
+  padding: 30px;
+  margin: auto;
+  text-align:  center;
+    margin: 60px;
+    width: 300px;
+    height: 30px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-left : auto ; 
+    margin-right : auto ; 
+}
+.boxmore:hover {
+  border-bottom-color: transparent;
+  transform: translateY(0.1875em);
+}
+/* .tyuou{
+    margin: 0 auto;
+} */
+
+.access{
+    font-weight: bold;
+    margin-bottom: 13px;
+    padding: 30px;
+    text-align: center;
+}
+.kaisya{
+    margin-bottom: 15px;
+    text-align: center;
+}
+.contact{
+    font-size: 20px;
+    padding-top: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.con{
+    text-align: center;
+}
+.setu{
+    margin-bottom: 40px;
+    text-align:center ;
+}
+.machi{
+    margin-bottom: 40px;
+}
+.formbox{
+    /* justify-content: center; */
+    /* margin: auto; */
+}
+.namae{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    max-width: 500px;
+}
+.kana{
+    display:flex;
+    width: 80%;
+    margin: 0 auto;
+    max-width: 500px;
+}
+.meru{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    max-width: 500px;
+}
+.ti{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    max-width: 500px;
+}
+.sibo{
+display: flex;
+width: 80%;
+    margin: 0 auto;
+    max-width: 500px;
+}
+.syousai{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+.sousin{
+    padding-top: 40px;
+    width: 300px;
+     background:yellow
+     margin-left : auto ; 
+     margin-right : auto ; 
+   
+ }
+ .sousin p{
+     color: white;
+     font-size: 20px;
+     text-align: center;
+     vertical-align: middle;
+ }
+ .sousin:hover {
+    border-bottom-color: transparent;
+    transform: translateY(0.1875em);
+    cursor: pointer;
+  }
+ .footer{
+     background-color: #707070;
+   height: 40px;
+   text-align: center;
+ }
+ .tizu{
+     background-color: lightgray;
+ }
+ .sousin{
+    background-color: yellow;
+  color: white;
+  display: inline-block;
+  padding: 30px;
+  text-align:  center;
+    margin: 60px;
+    width: 300px;
+    height: 30px;
+    font-size: 18px;
+ }
+ 
+body{
+    width: 1000px;
+}
